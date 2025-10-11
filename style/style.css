@@ -1,0 +1,207 @@
+html{
+    font-size: 62.5%;
+    font-family: Apercue;
+}
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --red: #ed1c24;
+  --grey: #1d1d1d;
+}
+@font-face {
+    font-family:inter ;
+    src: url(../assets/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
+    font-family: Futurak ;
+    src: url(../assests/fonts/futurak.ttf);
+}
+
+ body {
+  font-family: inter;
+}
+
+/* navbar started */
+.main-logo {
+  width: 165px;
+}
+nav > a {
+  font-size: 1.8rem;
+}
+
+nav > button {
+  font-size: 1.5rem;
+}
+.franchise-btn {
+  border: 1px solid var(--white);
+  background-color: transparent;
+  color: var(--white);
+  padding: 15px 20px;
+  border-radius: 30px;
+}
+.order-btn {
+  border: 0px ;
+  background-color: var(--red);
+  color: var(--white);
+  padding: 15px 20px;
+  border-radius: 30px;
+  
+}
+/* navbar ended */
+/* carousel started */
+
+.carousel{
+    width: 100%;
+}
+/* carousel ended */
+/* our-brands started */
+.our-brands > .main-head {
+    font-size: 4rem;
+    font-family: apercu;
+    font-weight: lighter;
+    margin: 30px 0px 0px 0px;
+
+}
+.futurak{
+    font-family: futurak;
+    font-size: 5rem;
+}
+.our-brands > .para {
+    font-size: 1.5rem;
+    color: #ffffffB3;
+    margin: 15px;
+}
+.brand-image{ 
+    background-color: var(--white);
+    border-radius: 10px;
+    padding: 10px;
+}
+.brand-online-btn{
+    background-color: transparent;
+    border: 1px solid var(--white);
+    border-radius: 20px;
+    padding: 10px 45px;
+    color: var(--white);
+}
+/* our-brands ended */
+/* Restaurant Franchise Started */
+.section-franchise {
+    position: relative;
+    background-color: var(--bg-grey);
+    /* right : 20px */
+}
+
+.city {
+    /* font-family : appercu; */
+    font-size: 1.5rem;
+    color: var(--red)
+}
+
+.futurak2 {
+    font-family: futurak;
+    font-size: 3rem;
+}
+
+.para2 {
+    font-size: 1.5rem;
+    color: var(--grey);
+    margin: 10px 0px;
+}
+
+.get-direction-btn {
+    border: 1px solid var(--white);
+    background-color: transparent;
+    color: var(--white);
+    padding: 15px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.franchise .arrow-icon {
+    font-size: 1.5rem;
+    background-color: var(--white);
+    color: var(--red);
+    padding: 3px 5px;
+    border-radius: 10px;
+}
+
+.restaurant {
+    margin-bottom: 50px;
+}
+
+/* Restaurant Franchise Ended */
+/* Village Franchise Started */
+.village {
+    margin-top: 70px;
+}
+
+.village-bg {
+    background-color: var(--bg-grey);
+    margin-top: 100px;
+    padding-bottom: 40px;
+}
+
+.para4 {
+    font-size: 1.6rem;
+    color: var(--white);
+    /* margin: 23px 0px; */
+}
+
+.city3 {
+    font-size: 2rem;
+    letter-spacing: 0.7em;
+    color: var(--red);
+}
+
+.get-direction-btn3 {
+    border: 1px solid #28a745 !important;
+    background-color: #28a745;
+    color: var(--white);
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+.get-direction-btn3:hover {
+    border: 1px solid #28a745 !important;
+    background-color: transparent;
+    color: var(--white);
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+.arrow-icon2 {
+    font-size: 1rem;
+    background-color: var(--white);
+    color: #28a745;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+/* Village Franchise Ended */
+/* Footer Started */
+.para5{
+padding-bottom: 24px;
+  padding-right: 0px;
+  text-align: left;
+  font-family: 'Apercu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.7);
+  width: 370px;
+}  
+.margin-left{
+    margin-left: 40px;
+}
+footer  a{
+    text-decoration: none;
+}
+/* Footer Ended */
