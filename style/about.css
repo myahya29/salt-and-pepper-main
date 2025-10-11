@@ -1,0 +1,418 @@
+html{
+    font-size: 62.5%;
+    font-family: Apercue;
+}
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --red: #ed1c24;
+  --grey: #1d1d1d;
+}
+@font-face {
+    font-family:inter ;
+    src: url(../assets/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
+    font-family: Futurak ;
+    src: url(../assests/fonts/futurak.ttf);
+}
+
+ body {
+  font-family: inter;
+}
+
+/* navbar started */
+.main-logo {
+  width: 165px;
+}
+nav > a {
+  font-size: 1.8rem;
+}
+
+nav > button {
+  font-size: 1.5rem;
+}
+.franchise-btn {
+  border: 1px solid var(--white);
+  background-color: transparent;
+  color: var(--white);
+  padding: 15px 20px;
+  border-radius: 30px;
+}
+.order-btn {
+  border: 0px ;
+  background-color: var(--red);
+  color: var(--white);
+  padding: 15px 20px;
+  border-radius: 30px;
+  }
+  
+
+/* navbar ended */
+#Introduction{
+  text-align: center;
+  margin: 70px;
+}
+h1{
+    text-align: center;
+}
+
+.Introduction-para{
+  flex-wrap: wrap;
+  margin: 25px 0px 0px;
+  font-size: 16px;
+  color: rgb(177, 167, 167);
+  font-family: 'Apercu Pro', sans-serif;
+}
+
+#restaurant-text{
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.restaurant-para{
+  margin: 20px 0px 0px;
+  font-size: 14px;
+  color: rgb(177, 167, 167);
+  font-family: 'Apercu Pro', sans-serif;
+}
+
+#row-1{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 50px;
+}
+
+.Pepper-restaurant{
+  width: 456px;
+   border-radius: 5px;
+  height: 320px;
+}
+
+#para-text-row-1{
+  color: rgb(177, 167, 167);
+  font-size: 16px;
+  width: 456px;
+  padding: 20px 0px 0px;
+
+
+}
+
+#row-2{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 60px;
+}
+
+
+#giving-franchises-para{
+  text-align: center;
+}
+
+#Islamabad-row{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 60px;
+}
+
+#Salt-n-Pepper-para{
+  color: rgb(177, 167, 167);
+  font-size: 16px;
+  width: 456px;
+  padding: 20px 0px 0px;   
+}
+
+#Islamabad-image{
+  width: 456px;
+   border-radius: 5px;
+  height: 320px;
+}
+
+
+#faisalabad-row{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 60px;
+}
+
+
+#food-connoisseur{
+  text-align: center;
+  padding: 50px 0px;
+
+  
+}
+
+#food-lover{
+  color: gray;
+  padding: 15px;
+}
+
+#food-connoisseur-row{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+#new-iamge{
+  width: 456px;
+  height: 320px;
+  border-radius: 5px;
+}
+
+#food-connoisseur-para{
+  width: 456px;
+  color: gray;
+}
+
+
+
+#Express{
+  flex-wrap: wrap;
+}
+
+#Salt-n-Pepper{
+  text-align: center;
+  margin: 60px;
+}
+
+#flex-row{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+
+}
+
+.text-red{
+  color: var(--red);
+}
+
+p{
+  padding: 8px 8px;
+  
+}
+
+.images-hotels{
+  width: 320px;
+  height: 250px;
+}
+
+
+
+
+#par5{
+  font-size: 48px;
+}
+#salt1{
+  color: var(--white);
+  text-align: center;
+  justify-content:center ;
+
+}
+#Pepper{
+  color: var(--white);
+  text-align: center;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 50px;
+  
+  
+
+  
+
+}
+.futurak-font{
+  
+  
+  font-family: futurak;
+  font-weight: lighter;
+  font-size: 52px}
+
+
+  #Social-feed{
+    text-align: center;
+    margin: 30px;
+}
+
+
+#Social-feed-image{
+  display: flex;
+  gap: 30px;
+  padding: 40px 0px;
+  flex-wrap: wrap;
+}
+.Social-image{
+  width: 230px;
+  height: 230px;
+}
+
+
+
+
+#pub{
+  color: white;
+}
+
+
+
+a{
+  text-decoration: none;
+
+}
+#ham{
+  display: none;
+}
+
+/* footer start */
+#main-footer{
+  margin: 70px;
+  display: flex;
+ 
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+h3{
+  padding: 0px 8px 10px;
+  
+}
+
+.footer-img{
+  width: 140px;
+  display: flex;
+  
+}
+
+
+#footer-para{
+  width: 320px;
+ 
+}
+
+#food-cout{
+  width: 250px;
+}
+
+#Powered-by{
+  display: flex;
+  color: rgb(170, 170, 170);
+  justify-content: center;
+  gap: 55%;
+  font-family: 'Apercu Pro', sans-serif;
+}
+
+
+
+
+@media(max-width:1024px){
+  #menu{
+      display: flex;
+  }
+
+  #navbar{
+      display: flex;
+  }
+}
+
+
+@media(max-width:768px){
+  .bars-menu{
+      display: flex;
+  }
+  
+  #menu{
+      display: none;
+  }
+
+  #Introduction{
+      flex-wrap: wrap;
+  }
+
+  #restaurant-text{
+      flex-wrap: wrap;
+  }
+
+  #row-1{
+      flex-wrap: wrap;
+  }
+
+  #row-2{
+      flex-wrap: wrap;
+  }
+
+  #giving-franchises-para{
+      flex-wrap: wrap;
+  }
+
+  #Islamabad-row{
+      flex-wrap: wrap;
+  }
+
+  #faisalabad-row{
+      flex-wrap: wrap;
+  }
+
+  #Gujranwala-row{
+      flex-wrap: wrap;
+  }
+
+  #main-footer{
+      flex-wrap: wrap;
+  }
+ 
+}
+
+
+@media(max-width:640px){
+  .bars-menu{
+      display: flex;
+  }
+  
+  #menu{
+      display: none;
+  }
+
+  #Introduction{
+      flex-wrap: wrap;
+  }
+
+  #restaurant-text{
+      flex-wrap: wrap;
+  }
+
+  #row-1{
+      flex-wrap: wrap;
+  }
+
+  #row-2{
+      flex-wrap: wrap;
+  }
+
+  #giving-franchises-para{
+      flex-wrap: wrap;
+  }
+
+  #Islamabad-row{
+      flex-wrap: wrap;
+  }
+
+  #faisalabad-row{
+      flex-wrap: wrap;
+  }
+
+  #Gujranwala-row{
+      flex-wrap: wrap;
+  }
+
+  #main-footer{
+      flex-wrap: wrap;
+  }
+
+}
