@@ -1,0 +1,188 @@
+#book-1{
+    width: 550px;
+    height: 580px;
+    border:1px  solid gray;
+}
+
+.book-1-img{
+    width: 600px;
+    height: 600px;
+    transition: .2s;
+}
+
+.book-1-img:hover{
+    transform: scale(1.1);
+}
+#book-2{
+    width: 550px;
+    height: 580px;
+    border: 1px solid gray;
+}
+
+.book-2-img{
+    width: 600px;
+    height: 600px;
+    transition: .2s;
+}
+
+.book-2-img:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .branches {
+          background-color: #000; 
+          color: white;
+          padding: 50px 20px;
+          text-align: center;
+          font-family: Arial, sans-serif;
+        }
+
+    .branches {
+      background-color: #000; 
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+    
+    .branches h2 {
+      font-size: 28px;
+      margin-bottom: 30px;
+    }
+    
+    .branch {
+      margin-bottom: 30px;
+    }
+    
+    .branch h3 {
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+    
+    .branch p {
+      margin: 5px 0;
+      font-size: 16px;
+    }
+    
+
+
+/* footer start */
+#main-footer{
+    margin: 70px;
+    display: flex;
+   
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+h3{
+    padding: 0px 8px 10px;
+    
+}
+
+.footer-img{
+    width: 140px;
+    display: flex;
+    
+}
+
+
+#footer-para{
+    width: 320px;
+   
+}
+
+#food-cout{
+    width: 250px;
+}
+
+#Powered-by{
+    display: flex;
+    color: rgb(170, 170, 170);
+    justify-content: center;
+    gap: 55%;
+    font-family: 'Apercu Pro', sans-serif;
+}
+
+
+/* footer end */
+
+
+
+/* media quries start */
+
+
+@media only screen and (max-width: 540px) {
+  
+  body {
+    background-color: var(--black);}
+    #home{
+      display: none;
+    }
+    #about{
+      display: none;
+    }
+    #pub{
+      display: none;
+    }
+    #button2{
+      display: none;
+    }
+    #button1{
+      justify-content: space-around;
+      background-color: red;
+      padding: 5px 10px;
+      border-radius: 15px;
+      color: var(--white);
+      
+    border: 1px solid;
+    }
+    #img1{
+      align-items: center;
+      justify-content: center;
+    }
+    .i{
+      display: block;
+      font-size: large;
+    }
+    #maindiv{
+      
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+    #divbtn{
+      display: none;
+    }
+    #ham{
+      display: block;
+      color: #ffff;
+      top: 80px;
+    
+      
+    }
+#book-1-img{ width: 100%;
+  height: auto;
+  
+
+}
+#book-2-img{ width: 100%;
+  height: auto;
+
+}
+}
+  
+
