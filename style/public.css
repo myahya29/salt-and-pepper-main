@@ -23,6 +23,7 @@
     width: 600px;
     height: 600px;
     transition: .2s;
+    display: flex;
 }
 
 .book-2-img:hover{
