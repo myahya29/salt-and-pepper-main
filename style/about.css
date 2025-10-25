@@ -20,6 +20,9 @@ html{
  body {
   font-family: inter;
 }
+.Introduction-para{
+  text-align: justify;
+}
 
 /* navbar started */
 .main-logo {
